@@ -50,7 +50,10 @@ img {
   margin: 0 26px;
   position: relative;
   letter-spacing: 4px;
-
+  transition: transform .3s;
+}
+.nav__link:hover {
+  color: rgba(134, 105, 255, 0.42);
 }
 
 .nav__link:not(:last-child):after {
@@ -81,15 +84,21 @@ img {
   width: calc(50% - 20px);
   overflow: hidden;
 }
-.gallery__item__nata {
-
+.gallery__item-title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: 'Prata', serif;
+}
+.gallery__item-desc {
+  font-family: 'Prata', serif;
+  letter-spacing: 4px;
 }
 
 .gallery__img {
   display: block;
   margin: auto;
   margin-bottom: 20px;
-
 }
 
 .gallery__title {
